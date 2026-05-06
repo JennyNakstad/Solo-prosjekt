@@ -1,10 +1,11 @@
-:root{
-  --primary-red: #E63946;
-  --red2: #C1121F; 
-  --dark-blue: #1D3557;
-  --light-bg: #F8F9FA;
-  --yellow: #F4A261;
-  --text-dark: #222;
+:root {
+    --primary-red: #E63946;
+    --red2: #C1121F;
+    --dark-blue: #1D3557;
+    --light-bg: #F8F9FA;
+    --yellow: #F4A261;
+    --text-dark: #222;
+    --primary-yellow: #F4B400; 
 }
 
 * {
@@ -80,34 +81,31 @@ h1 {
 .barcelona {
     background-image: url(bilder/indexbarcelona1.jpg);
     background-size: cover;
-    border: 1px solid black;
     border-radius: 20px;
     text-align: left;
     padding: 20px;
-    padding-top: 300px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    padding-top: 280px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .madrid {
     background-image: url(bilder/indexmadrid.jpeg);
     background-size: cover;
-    border: 1px solid black;
     border-radius: 20px;
     text-align: left;
     padding: 20px;
-    padding-top: 300px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    padding-top: 280px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .sevilla {
     background-image: url(bilder/indexsevilla.jpg);
     background-size: cover;
-    border: 1px solid black;
     border-radius: 20px;
     text-align: left;
     padding: 20px;
-    padding-top: 300px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    padding-top: 280px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .tekst {
@@ -117,5 +115,10 @@ h1 {
 }
 
 .griddestinasjon button {
-    width: 130px;
+    width: 150px;
+    background: #F4B400;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
 }
