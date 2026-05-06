@@ -78,34 +78,25 @@ h1 {
     color: white;
 }
 
-.barcelona {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexbarcelona1.jpg);
+.by {
     background-size: cover;
     border-radius: 20px;
     text-align: left;
     padding: 20px;
     padding-top: 280px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.barcelona {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexbarcelona1.jpg);
 }
 
 .madrid {
     background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexmadrid.jpeg);
-    background-size: cover;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-    padding-top: 280px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .sevilla {
     background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexsevilla.jpg);
-    background-size: cover;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-    padding-top: 280px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .tekst {
