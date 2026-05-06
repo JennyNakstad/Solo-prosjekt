@@ -1,1 +1,1 @@
-Planlegg din reise til Spania! Du kan velge om du vil dra til enten Barcelona, Madrid eller Sevilla. Deretter kan du velge mellom noen aktiviteter og noen matretter du vil prøve. Tilslutt får du en oversikt over reisen din.  
+Planlegg din reise til Spania! Du kan velge mellom å dra til Barcelona, Madrid eller Sevilla. Deretter kan du velge noen aktiviteter og noen matretter du vil prøve. Tilslutt får du en oversikt over reisen din.  
