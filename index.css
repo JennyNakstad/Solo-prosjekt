@@ -78,7 +78,29 @@ h1 {
 }
 
 .barcelona {
-    background-image: url(bilder/indexbarcelona.jpg);
+    background-image: url(bilder/indexbarcelona1.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.madrid {
+    background-image: url(bilder/indexmadrid.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.sevilla {
+    background-image: url(bilder/indexsevilla.jpg);
     background-size: cover;
     border: 1px solid black;
     border-radius: 20px;
