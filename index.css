@@ -79,7 +79,7 @@ h1 {
 }
 
 .barcelona {
-    background-image: url(bilder/indexbarcelona1.jpg);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexbarcelona1.jpg);
     background-size: cover;
     border-radius: 20px;
     text-align: left;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .madrid {
-    background-image: url(bilder/indexmadrid.jpeg);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexmadrid.jpeg);
     background-size: cover;
     border-radius: 20px;
     text-align: left;
@@ -99,7 +99,7 @@ h1 {
 }
 
 .sevilla {
-    background-image: url(bilder/indexsevilla.jpg);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexsevilla.jpg);
     background-size: cover;
     border-radius: 20px;
     text-align: left;
