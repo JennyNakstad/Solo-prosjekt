@@ -131,7 +131,7 @@ nav li {
     max-width: 1000px;
 }
 
-.gridaktivitet {
+.grid {
     margin: 30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -154,6 +154,36 @@ nav li {
 
 .card img {
    height: 180px; 
-   width: 100%;
+   object-fit: cover;
+}
+
+.aktivitet button {
+    width: 150px;
+    background: #F4B400;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.mat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.matcard {
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.matcard img {
+   height: 100px; 
    object-fit: cover;
 }
