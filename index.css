@@ -81,14 +81,13 @@ nav li {
 }
 
 .destinasjon {
-    margin-top: 50px;
     text-align: center;
-    padding: 40px;
+    padding: 100px;
 }
 
 .griddestinasjon {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 400px;
     gap: 40px;
     margin-top: 50px;
@@ -133,7 +132,6 @@ nav li {
 }
 
 .aktivitet {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,5 +216,13 @@ nav li {
 .dinreise {
     margin-top: 50px;
     text-align: center;
-    padding: 40px;
+    padding: 50px 300px;
+}
+
+.dinplan {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
 }
