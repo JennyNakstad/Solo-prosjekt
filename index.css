@@ -52,6 +52,15 @@ header {
     padding: 20px;
 }
 
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo i {
+    font-size: 30px;
+}
+
 nav ul {
     display: flex;
     align-items: center;
