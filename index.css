@@ -6,6 +6,16 @@
     --yellow: #F4A261;
     --text-dark: #222;
     --primary-yellow: #F4B400; 
+    --bakgrunn-light: #F5F1EC;
+}
+
+:root {
+  --primary-blue: #0B2A47;
+  --secondary-blue: #123E63;
+  --accent-red: #E85D4A;
+  --background-light: #F5F1EC;
+  --text-dark: #1E1E1E;
+  --white: #FFFFFF;
 }
 
 * {
@@ -19,6 +29,12 @@ img {
     width: 100%;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bakgrunn-light);
+}
+
 .intro {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0,0,0,0)), url(bilder/bakgrunn3.jpeg);
     background-size: cover;
@@ -26,11 +42,6 @@ img {
     width: 100%;
     padding-left: 100px;
     padding-right: 100px;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
 }
 
 header {
@@ -70,6 +81,7 @@ nav li {
 }
 
 .destinasjon {
+    margin-top: 50px;
     text-align: center;
     padding: 40px;
 }
@@ -121,6 +133,7 @@ nav li {
 }
 
 .aktivitet {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +141,7 @@ nav li {
 }
 
 .maxbredde {
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 .grid {
@@ -174,6 +187,14 @@ nav li {
     text-align: center;
 }
 
+.gridmat {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+    justify-content: center;
+}
 
 .matcard {
     border-radius: 10px;
