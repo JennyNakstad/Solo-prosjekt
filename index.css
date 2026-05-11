@@ -202,9 +202,14 @@ nav li {
     grid-template-rows: 1fr 1fr;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: left;
 }
 
 .matcard img {
    height: 100px; 
    object-fit: cover;
+}
+
+.gridinfo {
+    margin: 10px;
 }
