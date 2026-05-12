@@ -42,7 +42,7 @@
                 <div class="tekst">
                     <h3> Barcelona </h3>
                     <p> Kunst, strand og arkitektur </p>
-                    <button> Velg </button>
+                    <button onclick="klikkDestinasjon('Barcelona')"> Velg </button>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
                 <div class="tekst">
                     <h3> Madrid </h3>
                     <p> Hovedstaden full av kultur </p>
-                    <button> Velg </button>
+                    <button onclick="klikkDestinasjon('Madrid')"> Velg </button>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
                 <div class="tekst">
                     <h3> Sevilla </h3>
                     <p> Historie, tradisjon og flamenco </p>
-                    <button> Velg </button>
+                    <button onclick="klikkDestinasjon('Sevilla')"> Velg </button>
                 </div>
             </div>
         </div>
@@ -239,7 +239,7 @@
         <div class="dinplan">
             <div class="dindestinasjon">
                 <p> Din destinasjon </p>
-                <h4> - </h4>
+                <h4 id="destinasjonendin"> Ingen valgt </h4>
             </div>
             <div class="dineaktiviteter">
                 <p> Aktivitetene du valgte </p>
@@ -258,6 +258,8 @@
             <p> Viaje a España </p>
         </div>
     </footer>
+
+    <script src="index.js"> </script>
 </body>
 
 </html>
