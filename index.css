@@ -207,6 +207,10 @@ nav li {
     display: flex;
 }
 
+.check i {
+    color: white;
+}
+
 .card.selected .check {
     background: var(--primary-red);
 }
