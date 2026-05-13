@@ -170,11 +170,17 @@ nav li {
     grid-template-rows: 3fr 1fr;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .card img {
    height: 180px; 
    object-fit: cover;
+}
+
+.card.selected {
+    border: 2px solid var(--red2);
 }
 
 .aktivitet button {
