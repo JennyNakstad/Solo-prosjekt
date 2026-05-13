@@ -6,5 +6,21 @@ function klikkDestinasjon(by) {
 
 function selectCard(card) {
     card.classList.toggle("selected")
-    document.getElementById("aktivitetendin").textContent = card
+
+    let aktivitetListe = document.getElementById("aktivitetendin")
+    let navn = card.textContent;
+
+    if (card.classList.contains("selected")) {
+        let li = document.createElement("li");
+        li.textContent = navn;
+
+        aktivitetListe.appendChild(li);
+
+    } else {
+        let element = document.getElementById(navn);
+        if (element) {
+            element.remove();
+        }
+    }
 }
+
