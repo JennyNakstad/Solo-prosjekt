@@ -8,18 +8,19 @@ function selectCard(card) {
     card.classList.toggle("selected")
 
     let aktivitetListe = document.getElementById("aktivitetendin")
-    let navn = card.textContent;
+    let navn = card.textContent
 
     if (card.classList.contains("selected")) {
-        let li = document.createElement("li");
-        li.textContent = navn;
-
-        aktivitetListe.appendChild(li);
+        let li = document.createElement("li")
+        li.textContent = navn
+        li.id = navn 
+        
+        aktivitetListe.appendChild(li)
 
     } else {
-        let element = document.getElementById(navn);
+        let element = document.getElementById(navn)
         if (element) {
-            element.remove();
+            element.remove()
         }
     }
 }

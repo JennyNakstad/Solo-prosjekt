@@ -5,17 +5,17 @@
     --light-bg: #F8F9FA;
     --yellow: #F4A261;
     --text-dark: #222;
-    --primary-yellow: #F4B400; 
+    --primary-yellow: #F4B400;
     --bakgrunn-light: #F5F1EC;
 }
 
 :root {
-  --primary-blue: #0B2A47;
-  --secondary-blue: #123E63;
-  --accent-red: #E85D4A;
-  --background-light: #F5F1EC;
-  --text-dark: #1E1E1E;
-  --white: #FFFFFF;
+    --primary-blue: #0B2A47;
+    --secondary-blue: #123E63;
+    --accent-red: #E85D4A;
+    --background-light: #F5F1EC;
+    --text-dark: #1E1E1E;
+    --white: #FFFFFF;
 }
 
 * {
@@ -36,7 +36,7 @@ body {
 }
 
 .intro {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0,0,0,0)), url(bilder/bakgrunn3.jpeg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)), url(bilder/bakgrunn3.jpeg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -114,15 +114,15 @@ nav li {
 }
 
 .barcelona {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexbarcelona1.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(bilder/indexbarcelona1.jpg);
 }
 
 .madrid {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexmadrid.jpeg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(bilder/indexmadrid.jpeg);
 }
 
 .sevilla {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(bilder/indexsevilla.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(bilder/indexsevilla.jpg);
 }
 
 .tekst {
@@ -172,11 +172,12 @@ nav li {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     border: 2px solid transparent;
     cursor: pointer;
+    position: relative;
 }
 
 .card img {
-   height: 180px; 
-   object-fit: cover;
+    height: 180px;
+    object-fit: cover;
 }
 
 .card.selected {
@@ -191,6 +192,23 @@ nav li {
     border-radius: 8px;
     font-weight: bold;
     margin: 20px;
+}
+
+.check {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card.selected .check {
+    background: var(--primary-red);
 }
 
 .mat {
@@ -220,8 +238,8 @@ nav li {
 }
 
 .matcard img {
-   height: 100px; 
-   object-fit: cover;
+    height: 100px;
+    object-fit: cover;
 }
 
 .gridinfo {
