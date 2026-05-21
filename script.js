@@ -4,6 +4,7 @@ function klikkDestinasjon(by) {
     document.getElementById("destinasjonendin").textContent = by
 }
 
+
 function selectCard(card) {
     card.classList.toggle("selected")
 
@@ -14,7 +15,7 @@ function selectCard(card) {
         let li = document.createElement("li")
         li.textContent = navn
         li.id = navn 
-        
+
         aktivitetListe.appendChild(li)
 
     } else {
@@ -25,3 +26,9 @@ function selectCard(card) {
     }
 }
 
+const opplevelserElm = document.getElementById("opplevelserid")
+const opplevelsergridElm = document.getElementById("opplevelsergrid")
+opplevelserElm.addEventListener("click", function () {
+                opplevelsergridElm.classList.toggle("hidden")
+            })
+           
