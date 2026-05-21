@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -76,7 +76,7 @@
             <div id="selectbarcelona">
                 <div class="grid hidden" id="opplevelsergrid">
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexsykkeltur.jpeg" alt="">
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indecbarconeta.jpg" alt="">
@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexfontene.webp" alt="">
@@ -100,7 +100,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indextaubane.jpg" alt="">
@@ -110,7 +110,7 @@
 
                 <div class="grid hidden" id="kulturgrid">
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexsagrada.jpg" alt="">
@@ -118,7 +118,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexrambla.jpg" alt="">
@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexbatllo.jpg" alt="">
@@ -134,7 +134,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexpicasso.jpg" alt="">
@@ -144,7 +144,7 @@
 
                 <div class="grid hidden" id="naturgrid">
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexparc.jpg" alt="">
@@ -152,7 +152,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexciutadella.jpg" alt="">
@@ -160,7 +160,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexcollserla.jpg" alt="">
@@ -168,7 +168,7 @@
                     </div>
 
                     <div class="card" onclick="selectCard(this)">
-                        <div class="check"> 
+                        <div class="check">
                             <i class="fa-solid fa-check"></i>
                         </div>
                         <img src="bilder/barcelona/indexmontjuic.webp" alt="">
@@ -180,12 +180,13 @@
     </section>
 
     <section class="mat">
+        <i onclick="scrollVenstre()" class="fa-solid fa-circle-chevron-left"></i>
         <div class="maxbredde">
             <h2> 3. Velg matretter du har lyst til å prøve </h2>
-            <div class="gridmat">
+            <div class="matcontainer" id="gridmat">
                 <div class="matcard">
                     <img src="bilder/mat/paella.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Paella </h4>
                         <p> Risrett med sjømat, kylling eller kanin, opprinnelig fra Valencia. </p>
                     </div>
@@ -193,7 +194,7 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/tortilla.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Tortilla Española </h4>
                         <P> En tykk omelett med poteter og løk. </P>
                     </div>
@@ -202,7 +203,7 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/tapas.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Tapas </h4>
                         <P> Småretter man deler, f.eks. oliven, kjøttboller eller brød med topping. </P>
                     </div>
@@ -210,7 +211,7 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/patatas.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Patatas Bravas </h4>
                         <P> Sprøstekte poteter med sterk tomatsaus eller aioli. </P>
                     </div>
@@ -218,17 +219,15 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/gazpacho.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Gazpacho </h4>
                         <P> En kald tomatsuppe med grønnsaker, spesielt populær om sommeren. </P>
                     </div>
                 </div>
-            </div>
 
-            <div class="gridmat">
                 <div class="matcard">
                     <img src="bilder/mat/jamon.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Jamón Ibérico </h4>
                         <p> En av Spanias mest kjente skinker, laget av iberisk gris. </p>
                     </div>
@@ -236,7 +235,7 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/croquetas.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Croquetas </h4>
                         <P> Friterte kuler fylt med f.eks. skinke eller ost. </P>
                     </div>
@@ -245,7 +244,7 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/pancontomate.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Pan con Tomate </h4>
                         <P> Brød med tomat, olivenolje og salt, veldig vanlig i Catalonia.</P>
                     </div>
@@ -253,7 +252,7 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/churros.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Churros </h4>
                         <P> Friterte deigstenger som ofte dyppes i varm sjokolade. </P>
                     </div>
@@ -261,13 +260,14 @@
 
                 <div class="matcard">
                     <img src="bilder/mat/albondigas.jpg" alt="">
-                    <div class="gridinfo">
+                    <div class="matinfo">
                         <h4> Albóndigas </h4>
                         <P> Spanske kjøttboller, ofte servert i tomatsaus som tapas. </P>
                     </div>
                 </div>
             </div>
         </div>
+        <i onclick="scrollHoyre()" class="fa-solid fa-circle-chevron-right"></i>
     </section>
 
     <section class="dinreise">

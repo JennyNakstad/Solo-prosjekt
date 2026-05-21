@@ -49,3 +49,20 @@ naturElm.addEventListener("click", function () {
                 kulturgridElm.classList.add("hidden")
                 opplevelsergridElm.classList.add("hidden")
             })
+
+
+const gridmatElm = document.getElementById("gridmat")
+
+function scrollHoyre(){
+    gridmatElm.scrollBy({
+        left: 260,
+        behavior: "smooth"
+    })
+}
+
+function scrollVenstre(){
+    gridmatElm.scrollBy({
+        left: -260,
+        behavior: "smooth"
+    })
+}

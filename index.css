@@ -218,35 +218,36 @@ nav li {
 .mat {
     margin-top: 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-.gridmat {
+.matcontainer {
     margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1;
+    display: flex;
     gap: 20px;
     justify-content: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    cursor: pointer;
 }
 
 .matcard {
     border-radius: 10px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    min-width: 240px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     text-align: left;
 }
 
 .matcard img {
-    height: 100px;
+    height: 130px;
     object-fit: cover;
 }
 
-.gridinfo {
+.matinfo {
     margin: 10px;
 }
 
