@@ -29,6 +29,23 @@ function selectCard(card) {
 const opplevelserElm = document.getElementById("opplevelserid")
 const opplevelsergridElm = document.getElementById("opplevelsergrid")
 opplevelserElm.addEventListener("click", function () {
-                opplevelsergridElm.classList.toggle("hidden")
+                opplevelsergridElm.classList.remove("hidden")
+                naturgridElm.classList.add("hidden")
+                kulturgridElm.classList.add("hidden")
             })
            
+const kulturElm = document.getElementById("kulturid")
+const kulturgridElm = document.getElementById("kulturgrid")
+kulturElm.addEventListener("click", function () {
+                kulturgridElm.classList.remove("hidden")
+                naturgridElm.classList.add("hidden")
+                opplevelsergridElm.classList.add("hidden")
+            })
+
+const naturElm = document.getElementById("naturid")
+const naturgridElm = document.getElementById("naturgrid")
+naturElm.addEventListener("click", function () {
+                naturgridElm.classList.remove("hidden")
+                kulturgridElm.classList.add("hidden")
+                opplevelsergridElm.classList.add("hidden")
+            })
