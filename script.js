@@ -66,3 +66,24 @@ function scrollVenstre(){
         behavior: "smooth"
     })
 }
+
+function selectMatCard(matcard) {
+    matcard.classList.toggle("selected")
+
+    let aktivitetListe = document.getElementById("aktivitetendin")
+    let navn = matcard.textContent
+
+    if (matcard.classList.contains("selected")) {
+        let li = document.createElement("li")
+        li.textContent = navn
+        li.id = navn 
+
+        aktivitetListe.appendChild(li)
+
+    } else {
+        let element = document.getElementById(navn)
+        if (element) {
+            element.remove()
+        }
+    }
+}
