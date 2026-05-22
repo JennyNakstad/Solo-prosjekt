@@ -15,7 +15,6 @@
     <section class="intro">
         <header>
             <div class="logo">
-                <i class="fa-solid fa-sun"></i>
                 <p> Viaje a España </p>
             </div>
             <nav>
@@ -184,8 +183,8 @@
         <div class="maxbredde">
             <h2> 3. Velg noen matretter du har lyst til å prøve </h2>
             <div class="matcontainer" id="gridmat">
-                <div class="matcard">
-                    <div class="check" onclick="selectCard(this)">
+                <div class="matcard" onclick="selectCard(this)">
+                    <div class="check">
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <img src="bilder/mat/paella.jpg" alt="">
@@ -195,8 +194,8 @@
                     </div>
                 </div>
 
-                <div class="matcard">
-                    <div class="check" onclick="selectCard(this)">
+                <div class="matcard" onclick="selectCard(this)">
+                    <div class="check">
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <img src="bilder/mat/tortilla.jpg" alt="">
@@ -207,8 +206,8 @@
 
                 </div>
 
-                <div class="matcard">
-                    <div class="check" onclick="selectCard(this)">
+                <div class="matcard" onclick="selectCard(this)">
+                    <div class="check">
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <img src="bilder/mat/tapas.jpg" alt="">
@@ -251,7 +250,7 @@
 
                 </div>
 
-                <div class="matcard">
+                <div class="matcard" onclick="selectCard(this)">
                     <img src="bilder/mat/pancontomate.jpg" alt="">
                     <div class="matinfo">
                         <h4> Pan con Tomate </h4>
@@ -259,7 +258,7 @@
                     </div>
                 </div>
 
-                <div class="matcard">
+                <div class="matcard" onclick="selectCard(this)">
                     <img src="bilder/mat/churros.jpg" alt="">
                     <div class="matinfo">
                         <h4> Churros </h4>
@@ -267,7 +266,7 @@
                     </div>
                 </div>
 
-                <div class="matcard">
+                <div class="matcard" onclick="selectCard(this)">
                     <img src="bilder/mat/albondigas.jpg" alt="">
                     <div class="matinfo">
                         <h4> Albóndigas </h4>
@@ -293,7 +292,7 @@
             </div>
             <div class="dinematretter">
                 <p> Matrettene du vil prøve </p>
-                <h4> - </h4>
+                <h4 id="matendin"> - </h4>
             </div>
         </div>
         <div class="knapp"> Lagre min plan </div>

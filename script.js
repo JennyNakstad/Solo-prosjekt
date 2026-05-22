@@ -70,18 +70,18 @@ function scrollVenstre(){
 function selectMatCard(matcard) {
     matcard.classList.toggle("selected")
 
-    let aktivitetListe = document.getElementById("aktivitetendin")
+    let matListe = document.getElementById("matendin")
     let navn = matcard.textContent
 
     if (matcard.classList.contains("selected")) {
         let li = document.createElement("li")
         li.textContent = navn
-        li.id = navn 
+        li.id = matnavn
 
-        aktivitetListe.appendChild(li)
+        matListe.appendChild(li)
 
     } else {
-        let element = document.getElementById(navn)
+        let element = document.getElementById(matnavn)
         if (element) {
             element.remove()
         }
