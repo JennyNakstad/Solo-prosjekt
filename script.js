@@ -71,11 +71,11 @@ function selectMatCard(matcard) {
     matcard.classList.toggle("selected")
 
     let matListe = document.getElementById("matendin")
-    let navn = matcard.textContent
+    let matnavn = matcard.querySelector("h4").textContent
 
     if (matcard.classList.contains("selected")) {
         let li = document.createElement("li")
-        li.textContent = navn
+        li.textContent = matnavn
         li.id = matnavn
 
         matListe.appendChild(li)
