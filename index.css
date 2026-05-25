@@ -8,7 +8,7 @@
     --yellow: #F4A261;
     --text-dark: #222;
     --primary-yellow: #F4B400;
-    --bakgrunn-light: #F5F1EC;
+    --bakgrunn-light: #FAF7F2;
 }
 
 :root {
@@ -98,7 +98,7 @@ nav li {
 
 .destinasjon {
     text-align: center;
-    padding: 100px;
+    padding: 120px 100px;
 }
 
 .griddestinasjon {
@@ -223,7 +223,7 @@ nav li {
 }
 
 .mat {
-    margin-top: 50px;
+    margin-top: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
