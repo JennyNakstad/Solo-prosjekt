@@ -86,9 +86,9 @@ nav li {
 }
 
 .intro h1 {
-    font-size: 70px;
+    font-size: 100px;
     margin-top: 300px;
-    max-width: 500px;
+    max-width: 800px;
     color: var(--text-dark);
 }
 
