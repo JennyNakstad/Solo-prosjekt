@@ -270,14 +270,6 @@ nav li {
     margin: 10px;
 }
 
-.card:hover,
-.matcard:hover,
-.by:hover{
-    transform: scale(1.03);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-    transition: 0.3s ease;
-}
-
 .dinreise {
     margin-top: 50px;
     text-align: center;
@@ -290,4 +282,24 @@ nav li {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: left;
+}
+
+.card:hover,
+.matcard:hover,
+.by:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+button,
+.knapp{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover,
+.knapp:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
 }
