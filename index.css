@@ -255,6 +255,10 @@ nav li {
     border: 2px solid var(--red2);
 }
 
+.matcard.selected .check {
+    background: var(--primary-red);
+}
+
 .matinfo {
     margin: 10px;
 }
