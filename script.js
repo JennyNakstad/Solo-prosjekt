@@ -1,7 +1,15 @@
 console.log("hei")
 
-function klikkDestinasjon(by) {
+function klikkDestinasjon(element, by) {
     document.getElementById("destinasjonendin").textContent = by
+
+    let alleByer = document.querySelectorAll(".by")
+
+    alleByer.forEach(bykort => {
+        bykort.classList.remove("selected")
+    })
+
+    element.classList.add("selected")
 }
 
 

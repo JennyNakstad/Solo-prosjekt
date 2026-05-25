@@ -118,6 +118,13 @@ nav li {
     padding: 20px;
     padding-top: 280px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    filter: brightness(1);
+    transition: 0.3s ease;
+}
+
+.by.selected{
+    filter: brightness(0.85);
+    border: 3px solid var(--red2);
 }
 
 .barcelona {
