@@ -9,10 +9,10 @@
     --text-dark: #222;
     --primary-yellow: #F4B400;
     --bakgrunn-light: #FAF7F2;
+    --primary-blue: #0B2A47;
 }
 
 :root {
-    --primary-blue: #0B2A47;
     --secondary-blue: #123E63;
     --accent-red: #E85D4A;
     --background-light: #F5F1EC;
@@ -152,9 +152,6 @@ nav li {
     grid-template-rows: 3fr 1fr;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    border: 2px solid transparent;
-    cursor: pointer;
-    position: relative;
 }
 
 .card img {
@@ -174,89 +171,23 @@ nav li {
     gap: 20px;
 }
 .galleri {
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 40px 100px;
 }
 
-.matcontainer {
-    margin: 30px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    cursor: pointer;
-}
-
-.matcard {
-    border-radius: 10px;
+.gallericontainer {
     display: grid;
-    min-width: 240px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gallericard {
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    text-align: left;
-    position: relative;
-    border: 2px solid transparent;
-    margin-bottom: 30px;
 }
 
-.matcard img {
+.gallericard img {
     height: 130px;
     object-fit: cover;
-}
-
-.matcard.selected {
-    border: 2px solid var(--red2);
-}
-
-.matcard.selected .check {
-    background: var(--primary-red);
-}
-
-.matinfo {
-    margin: 10px;
-}
-
-.dinreise {
-    margin-top: 50px;
-    text-align: center;
-    padding: 50px 300px;
-}
-
-.dinreise .knapp {
-    display: flex;
-    max-width: 200px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.dinplan {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 30px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    text-align: left;
-    margin-top: 20px;
-    gap: 20px;
-}
-
-.dinplan li {
-    margin-left: 25px;
-}
-
-.card:hover,
-.matcard:hover,
-.by:hover{
-    transform: scale(1.03);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-    transition: 0.3s ease;
 }
 
 button,
