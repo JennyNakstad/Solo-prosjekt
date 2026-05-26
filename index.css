@@ -330,6 +330,7 @@ footer {
     color: white;
     margin-top: 100px;
     padding: 30px 100px;
+    justify-content: center;
 }
 
 .footerinnhold{
@@ -340,5 +341,16 @@ footer {
 
 .footerlinker {
     display: flex;
-    gap: 30px;
+    gap: 40px;
+}
+
+.ikoner{
+    display: flex;
+    gap: 15px;
+}
+
+.ikoner i{
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
