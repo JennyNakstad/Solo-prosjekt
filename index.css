@@ -311,11 +311,19 @@ nav li {
 }
 
 .dinplan {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 30px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: left;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.dinplan li {
+    margin-left: 25px;
 }
 
 .card:hover,
