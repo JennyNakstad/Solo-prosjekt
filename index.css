@@ -324,3 +324,21 @@ button:hover,
     transform: scale(1.05);
     opacity: 0.9;
 }
+
+footer {
+    background-color: var(--primary-blue);
+    color: white;
+    margin-top: 100px;
+    padding: 30px 100px;
+}
+
+.footerinnhold{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footerlinker {
+    display: flex;
+    gap: 30px;
+}
