@@ -105,7 +105,7 @@ nav li {
 }
 
 .intro h4 {
-    margin-top: 20px;
+    margin-top: 30px;
     max-width: 450px;
     font-weight: 500;
 }
@@ -357,6 +357,11 @@ footer {
 .footerinnhold{
     display: flex;
     justify-content: space-between;
+}
+
+.footerlogo i {
+    color: var(--red2);
+    font-size: 25px;
 }
 
 .footerlinker {
