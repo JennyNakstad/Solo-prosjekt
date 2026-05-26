@@ -42,6 +42,15 @@ h1, h2, h3, h4{
     font-family: "Poppins", sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
 .intro {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)), url(bilder/bakgrunn3.jpeg);
     background-size: cover;
@@ -120,6 +129,7 @@ nav li {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
     filter: brightness(1);
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .by.selected{
@@ -256,7 +266,6 @@ nav li {
     text-align: left;
     position: relative;
     border: 2px solid transparent;
-    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -281,6 +290,10 @@ nav li {
     margin-top: 50px;
     text-align: center;
     padding: 50px 300px;
+}
+
+.dinreise .knapp {
+    max-width: 130px;
 }
 
 .dinplan {
