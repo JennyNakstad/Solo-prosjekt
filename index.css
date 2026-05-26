@@ -293,7 +293,8 @@ nav li {
 }
 
 .dinreise .knapp {
-    max-width: 130px;
+    max-width: 150px;
+    margin-top: 10px;
 }
 
 .dinplan {
