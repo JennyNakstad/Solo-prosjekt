@@ -36,10 +36,12 @@ body {
     height: 100vh;
     background-color: var(--bakgrunn-light);
     font-family: "Inter", sans-serif;
+    color: var(--text-dark);
 }
 
 h1, h2, h3, h4{
     font-family: "Poppins", sans-serif;
+    line-height: 1.1;
 }
 
 h2 {
@@ -48,11 +50,12 @@ h2 {
 }
 
 p {
+    line-height: 1.6;
     margin-bottom: 10px;
 }
 
 .intro {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)), url(bilder/bakgrunn3.jpeg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0)), url(bilder/bakgrunn3.jpeg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -98,7 +101,12 @@ nav li {
     font-size: 100px;
     margin-top: 300px;
     max-width: 800px;
-    color: var(--text-dark);
+}
+
+.intro h4 {
+    margin-top: 20px;
+    max-width: 450px;
+    font-weight: 500;
 }
 
 .intro span {
@@ -336,12 +344,11 @@ footer {
 .footerinnhold{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
 }
 
 .footerlinker {
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .ikoner{
