@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="barcelona.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="intro">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-plane"></i>
+                <h3> Viaje a España </h3>
+            </div>
+            <nav>
+                <ul>
+                    <li> Barcelona </li>
+                    <li> Madrid </li>
+                    <li> Sevilla </li>
+                    <li> Din plan </li>
+                    <li class="knapp"> Planlegg din reise </li>
+                </ul>
+            </nav>
+
+        </header>
+        <div class="introinfo">
+            <h1> Barcelona </h1>
+            <h4> Kunst, kultur og middelhavsby </h4>
+            <p> En pulserende kystby i Spania kjent for fantastisk arkitektur, deilige strender, livlig atmosfære og
+                katalansk sjarm. </p>
+        </div>
+    </section>
+
+    <section class="om">
+        <div>
+            <h2> Om Barcelona </h2>
+            <p> Barcelona er hovedstaden...</p>
+        </div>
+        <div>
+            bilde...
+        </div>
+    </section>
+
+    <section class="severdigheter">
+        <h2> Anbefalte severdigheter </h2>
+        <div id="selectbarcelona">
+            <div class="grid">
+                <div class="card">
+                    <img src="bilder/barcelona/indexsykkeltur.jpeg" alt="">
+                    <h4>Sykkeltur gjennom byen</h4>
+                </div>
+
+                <div class="card">
+                    <img src="bilder/barcelona/indecbarconeta.jpg" alt="">
+                    <h4>Strandliv ved Barconeta</h4>
+                </div>
+
+                <div class="card">
+                    <img src="bilder/barcelona/indexfontene.webp" alt="">
+                    <h4>Se showet ved ven magiske fontenen</h4>
+                </div>
+
+                <div class="card">
+                    <img src="bilder/barcelona/indextaubane.jpg" alt="">
+                    <h4>Ta en taubane til Montjuïc</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reise">
+        <div class="opplevelser">
+            <h2> Opplevelser i Barcelona </h2>
+        </div>
+
+        <div class="bestetid">
+            <h2> Beste tid å besøke</h2>
+        </div>
+    </section>
+
+    <section class="galleri">
+        <i onclick="scrollVenstre()" class="fa-solid fa-circle-chevron-left"></i>
+        <div class="maxbredde">
+            <h2> 3. Velg noen matretter du har lyst til å prøve </h2>
+            <p> Velg dine favorittretter </p>
+            <div class="matcontainer" id="gridmat">
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/paella.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Paella </h4>
+                        <p> Risrett med sjømat, kylling eller kanin, opprinnelig fra Valencia. </p>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/tortilla.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Tortilla Española </h4>
+                        <P> En tykk omelett med poteter og løk. </P>
+                    </div>
+
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/tapas.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Tapas </h4>
+                        <P> Småretter man deler, f.eks. oliven, kjøttboller eller brød med topping. </P>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/patatas.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Patatas Bravas </h4>
+                        <P> Sprøstekte poteter med sterk tomatsaus eller aioli. </P>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/gazpacho.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Gazpacho </h4>
+                        <P> En kald tomatsuppe med grønnsaker, spesielt populær om sommeren. </P>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/jamon.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Jamón Ibérico </h4>
+                        <p> En av Spanias mest kjente skinker, laget av iberisk gris. </p>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/croquetas.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Croquetas </h4>
+                        <P> Friterte kuler fylt med f.eks. skinke eller ost. </P>
+                    </div>
+
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/pancontomate.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Pan con Tomate </h4>
+                        <P> Brød med tomat, olivenolje og salt, veldig vanlig i Catalonia.</P>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/churros.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Churros </h4>
+                        <P> Friterte deigstenger som ofte dyppes i varm sjokolade. </P>
+                    </div>
+                </div>
+
+                <div class="matcard" onclick="selectMatCard(this)">
+                    <div class="check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <img src="bilder/mat/albondigas.jpg" alt="">
+                    <div class="matinfo">
+                        <h4> Albóndigas </h4>
+                        <P> Spanske kjøttboller, ofte servert i tomatsaus som tapas. </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i onclick="scrollHoyre()" class="fa-solid fa-circle-chevron-right"></i>
+    </section>
+
+    <footer>
+        <div class="footerinnhold">
+            <div class="footerlogo">
+                <h3>
+                    <i class="fa-solid fa-plane"></i>
+                    Viaje a España
+                </h3>
+            </div>
+
+            <div class="footerlinker">
+                <p>Barcelona</p>
+                <p>Madrid</p>
+                <p>Sevilla</p>
+                <p>Reiseplan</p>
+            </div>
+
+            <div class="footerikoner">
+                <div class="ikoner">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
