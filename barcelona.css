@@ -133,6 +133,10 @@ nav li {
     border-radius: 10px;
 }
 
+.om i {
+
+}
+
 .severdigheter {
     display: flex;
     flex-direction: column;
@@ -183,6 +187,12 @@ nav li {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.opplevelsercontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .bestetid {
