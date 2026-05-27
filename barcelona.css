@@ -55,7 +55,7 @@ p {
 }
 
 .intro {
-    background-image: linear-gradient(to right,  #0B2A47, rgba(0, 0, 0, 0)), url(bilder/barcelona/barcelonahero.jpg);
+    background-image: linear-gradient(to right,  #071B34, rgba(0, 0, 0, 0)), url(bilder/barcelona/barcelonahero.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -179,7 +179,7 @@ nav li {
 }
 
 .bestetid {
-    background-color: var(--dark-blue);
+    background-color: var(--marine-blue);
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -217,7 +217,7 @@ nav li {
 }
 
 footer {
-    background-color: var(--primary-blue);
+    background-color: var(--marine-blue);
     color: white;
     margin-top: 100px;
     padding: 30px 100px;
