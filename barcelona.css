@@ -11,6 +11,7 @@
     --bakgrunn-light: #FAF7F2;
     --primary-blue: #0B2A47;
     --marine-blue: #071B34; 
+    --accent-red: #E85D4A;
 }
 
 :root {
@@ -127,6 +128,11 @@ nav li {
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     gap: 10px;
+    margin-top: 30px;
+}
+
+.ikongrid i, h5, p {
+    margin-top: 10px;
 }
 
 .om img {
@@ -134,7 +140,8 @@ nav li {
 }
 
 .om i {
-
+    font-size: 40px;
+    color: var(--accent-red);
 }
 
 .severdigheter {
@@ -191,8 +198,13 @@ nav li {
 
 .opplevelsercontainer {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.reise i {
+    font-size: 40px;
+    color: var(--accent-red);
 }
 
 .bestetid {
@@ -211,6 +223,10 @@ nav li {
 
 .midtstilt {
     text-align: center;
+}
+
+.fa-seedling {
+    color: pink;
 }
 
 .galleri {
