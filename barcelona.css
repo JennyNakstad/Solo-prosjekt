@@ -52,6 +52,11 @@ p {
     line-height: 1.6;
 }
 
+.intro a {
+    text-decoration: none;
+    color: white;
+}
+
 .intro {
     background-image: linear-gradient(to right,  #071B34, rgba(0, 0, 0, 0)), url(bilder/barcelona/barcelonahero.jpg);
     background-size: cover;
