@@ -117,7 +117,7 @@ nav li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    padding: 40px 100px;
+    padding: 90px 100px;
 }
 
 .ikongrid {
@@ -128,12 +128,14 @@ nav li {
     margin-top: 30px;
 }
 
-.ikongrid i, h5, p {
+.ikongrid i, 
+.ikongrid h5,
+.ikongrid p {
     margin-top: 10px;
 }
 
 .om img {
-    border-radius: 10px;
+    border-radius: 18px;
 }
 
 .om i {
@@ -146,7 +148,7 @@ nav li {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 40px 100px;
+    padding: 90px 100px;
 }
 
 .grid {
@@ -162,7 +164,7 @@ nav li {
 }
 
 .card {
-    border-radius: 10px;
+    border-radius: 18px;
     overflow: hidden;
     text-align: left;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
@@ -180,10 +182,16 @@ nav li {
     padding: 20px;
 }
 
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
 .reise {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 40px 100px;
+    padding: 90px 100px;
     gap: 40px;
 }
 
@@ -199,8 +207,8 @@ nav li {
     gap: 30px;
 }
 
-.opplevelsercontainer p {
-    margin-top: 2px;
+.reise p {
+    margin-top: 4px;
 }
 
 
@@ -213,7 +221,7 @@ nav li {
     background-color: var(--marine-blue);
     color: white;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 18px;
 }
 
 .visitgrid {
@@ -262,7 +270,7 @@ nav li {
 }
 
 .galleri {
-    padding: 40px 100px;
+    padding: 90px 100px;
 }
 
 .gallericontainer {
@@ -272,13 +280,13 @@ nav li {
 }
 
 .gallericard {
-    border-radius: 10px;
+    border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .gallericard img {
-    height: 130px;
+    height: 220px;
     object-fit: cover;
 }
 
