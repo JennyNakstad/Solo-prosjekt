@@ -16,6 +16,7 @@
     --varm-gul: #F4B400; 
     --dyp-oransje: #D97706; 
     --is-blue: #60A5FA; 
+    --lysere-tekst: #7C8594; 
 }
 
 * {
@@ -227,7 +228,7 @@ nav li {
 }
 
 .borderright {
-    border-right: 0.5px solid var(--bakgrunn-light);
+    border-right: 0.5px solid var(--lysere-tekst);
     padding: 10px;
 }
 
@@ -237,6 +238,11 @@ nav li {
 
 .midtstilt {
     text-align: center;
+}
+
+.midtstilt p {
+    color: var(--lysere-tekst);
+    font-size: 13px;
 }
 
 .midtstilt .fa-seedling {
