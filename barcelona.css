@@ -12,6 +12,10 @@
     --primary-blue: #0B2A47;
     --marine-blue: #071B34; 
     --accent-red: #E85D4A;
+    --myk-green: #6BBF59; 
+    --varm-gul: #F4B400; 
+    --dyp-oransje: #D97706; 
+    --is-blue: #60A5FA; 
 }
 
 :root {
@@ -225,8 +229,20 @@ nav li {
     text-align: center;
 }
 
-.fa-seedling {
-    color: pink;
+.midtstilt .fa-seedling {
+    color: var(--myk-green);
+}
+
+.midtstilt .fa-sun {
+    color: var(--varm-gul);
+}
+
+.midtstilt .fa-leaf {
+    color: var(--dyp-oransje);
+}
+
+.midtstilt .fa-snowflake {
+    color: var(--is-blue);
 }
 
 .galleri {
