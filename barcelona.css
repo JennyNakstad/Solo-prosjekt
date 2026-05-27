@@ -121,9 +121,10 @@ nav li {
     padding: 40px 100px;
 }
 
-.tekst {
-    display: flex;
-    flex-direction: column;
+.ikongrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
     gap: 10px;
 }
 
@@ -171,6 +172,24 @@ nav li {
     flex-direction: column;
     gap: 20px;
 }
+
+.bestetid {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.besøkgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+
+.midtstilt {
+    text-align: center;
+}
+
 .galleri {
     padding: 40px 100px;
 }
