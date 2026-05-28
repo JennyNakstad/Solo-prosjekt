@@ -102,14 +102,20 @@ nav li {
     cursor: pointer;
 }
 
+.knapp:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
 .intro h1 {
     font-size: 100px;
     margin-top: 300px;
     max-width: 800px;
 }
 
-.intro h4 {
-    margin-top: 30px;
+.introinfo h3, 
+.introinfo p {
+    margin-top: 20px;
     max-width: 450px;
     font-weight: 500;
 }
