@@ -92,6 +92,12 @@ nav ul {
 
 nav li {
     list-style: none;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+
+nav li:hover{
+    color:var(--accent-red);
 }
 
 .knapp {
@@ -322,6 +328,8 @@ footer {
 .footerlinker {
     display: flex;
     gap: 50px;
+    cursor:pointer;
+    transition:0.2s ease;
 }
 
 .ikoner{
@@ -333,4 +341,8 @@ footer {
     font-size: 24px;
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+.footerlinker p:hover{
+    color:var(--accent-red);
 }
