@@ -60,6 +60,11 @@ p {
     width: 100%;
 }
 
+.intro a {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -393,3 +398,6 @@ footer {
     cursor: pointer;
     transition: 0.3s ease;
 }
+
+
+
