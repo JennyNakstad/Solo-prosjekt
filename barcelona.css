@@ -10,13 +10,13 @@
     --primary-yellow: #F4B400;
     --bakgrunn-light: #FAF7F2;
     --primary-blue: #0B2A47;
-    --marine-blue: #071B34; 
+    --marine-blue: #071B34;
     --accent-red: #E85D4A;
-    --myk-green: #6BBF59; 
-    --varm-gul: #F4B400; 
-    --dyp-oransje: #D97706; 
-    --is-blue: #60A5FA; 
-    --lysere-tekst: #7C8594; 
+    --myk-green: #6BBF59;
+    --varm-gul: #F4B400;
+    --dyp-oransje: #D97706;
+    --is-blue: #60A5FA;
+    --lysere-tekst: #7C8594;
 }
 
 * {
@@ -38,7 +38,10 @@ body {
     color: var(--text-dark);
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
 }
@@ -58,7 +61,7 @@ p {
 }
 
 .intro {
-    background-image: linear-gradient(to right,  #071B34, rgba(0, 0, 0, 0)), url(bilder/barcelona/barcelonahero.jpg);
+    background-image: linear-gradient(to right, #071B34, rgba(0, 0, 0, 0)), url(bilder/barcelona/barcelonahero.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -92,12 +95,12 @@ nav ul {
 
 nav li {
     list-style: none;
-    cursor:pointer;
-    transition:0.2s ease;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
-nav li:hover{
-    color:var(--accent-red);
+nav li:hover {
+    color: var(--accent-red);
 }
 
 .knapp {
@@ -108,7 +111,7 @@ nav li:hover{
     cursor: pointer;
 }
 
-.knapp:hover{
+.knapp:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
@@ -119,7 +122,7 @@ nav li:hover{
     max-width: 800px;
 }
 
-.introinfo h3, 
+.introinfo h3,
 .introinfo p {
     margin-top: 20px;
     max-width: 450px;
@@ -145,7 +148,7 @@ nav li:hover{
     margin-top: 30px;
 }
 
-.ikongrid i, 
+.ikongrid i,
 .ikongrid h5,
 .ikongrid p {
     margin-top: 10px;
@@ -171,9 +174,9 @@ nav li:hover{
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1;
     gap: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .hidden {
@@ -201,7 +204,7 @@ nav li:hover{
 
 .card:hover {
     transform: scale(1.03);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     transition: 0.3s ease;
 }
 
@@ -315,7 +318,7 @@ footer {
     justify-content: center;
 }
 
-.footerinnhold{
+.footerinnhold {
     display: flex;
     justify-content: space-between;
 }
@@ -328,21 +331,174 @@ footer {
 .footerlinker {
     display: flex;
     gap: 50px;
-    cursor:pointer;
-    transition:0.2s ease;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
-.ikoner{
+.ikoner {
     display: flex;
     gap: 15px;
 }
 
-.ikoner i{
+.ikoner i {
     font-size: 24px;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
-.footerlinker p:hover{
-    color:var(--accent-red);
+.footerlinker p:hover {
+    color: var(--accent-red);
+}
+
+
+@media (width < 900px) {
+
+    .om {
+        grid-template-columns: 1fr;
+    }
+
+    .reise {
+        grid-template-columns: 1fr;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallericontainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (width < 700px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 20px 100px;
+    }
+
+    .logo {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .logo i {
+        font-size: 25px;
+        color: var(--red2);
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    nav li {
+        list-style: none;
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+
+    nav li:hover {
+        color: var(--accent-red);
+    }
+
+    .knapp {
+        background-color: var(--red2);
+        padding: 10px;
+        border-radius: 5px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .knapp:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+
+    .intro h1 {
+        font-size: 80px;
+        max-width: 500px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        display: flex;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .reise {
+        grid-template-columns: 1fr;
+        padding: 90px 80px;
+        gap: 40px;
+    }
+
+    .visitgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .borderright {
+        border-right: 0;
+    }
+
+    .galleri {
+        padding: 90px 100px;
+    }
+
+    .gallericontainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        background-color: var(--marine-blue);
+        color: white;
+        margin-top: 100px;
+        padding: 30px 100px;
+        justify-content: center;
+    }
+
+    .footerinnhold {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footerlogo i {
+        color: var(--red2);
+        font-size: 25px;
+    }
+
+    .footerlinker {
+        display: flex;
+        gap: 50px;
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+
+    .ikoner {
+        display: flex;
+        gap: 15px;
+    }
+
+    .ikoner i {
+        font-size: 24px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .footerlinker p:hover {
+        color: var(--accent-red);
+    }
+
+
 }
