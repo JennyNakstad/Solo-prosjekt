@@ -1,5 +1,24 @@
 console.log("hei")
 
+const menuToggle = document.querySelector(".menu-toggle")
+const nav = document.querySelector("nav")
+const icon = document.querySelector(".menu-toggle i")
+
+menuToggle.addEventListener("click", function () {
+
+    nav.classList.toggle("active")
+
+    if(nav.classList.contains("active")){
+        icon.classList.remove("fa-bars")
+        icon.classList.add("fa-xmark")
+    }
+    else{
+        icon.classList.remove("fa-xmark")
+        icon.classList.add("fa-bars")
+    }
+
+})
+
 function klikkDestinasjon(element, by) {
     document.getElementById("destinasjonendin").textContent = by
 
@@ -96,22 +115,3 @@ function selectMatCard(matcard) {
     }
 }
 
-
-const menuToggle = document.querySelector(".menu-toggle")
-const nav = document.querySelector("nav")
-const icon = document.querySelector(".menu-toggle i")
-
-menuToggle.addEventListener("click", function () {
-
-    nav.classList.toggle("active")
-
-    if(nav.classList.contains("active")){
-        icon.classList.remove("fa-bars")
-        icon.classList.add("fa-xmark")
-    }
-    else{
-        icon.classList.remove("fa-xmark")
-        icon.classList.add("fa-bars")
-    }
-
-})

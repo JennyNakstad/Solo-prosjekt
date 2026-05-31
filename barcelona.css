@@ -383,7 +383,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         height: 60px;
-        padding: 20px 100px;
+        padding: 20px;
     }
 
     .logo {
@@ -487,43 +487,17 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    footer {
-        background-color: var(--marine-blue);
-        color: white;
-        margin-top: 100px;
-        padding: 30px 100px;
-        justify-content: center;
+    .footerlinker{
+        display:none;
     }
 
-    .footerinnhold {
-        display: flex;
-        justify-content: space-between;
+    .footerikoner {
+        display: none;
     }
 
-    .footerlogo i {
-        color: var(--red2);
-        font-size: 25px;
-    }
-
-    .footerlinker {
-        display: flex;
-        gap: 50px;
-        cursor: pointer;
-        transition: 0.2s ease;
-    }
-
-    .ikoner {
-        display: flex;
-        gap: 15px;
-    }
-
-    .ikoner i {
-        font-size: 24px;
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-
-    .footerlinker p:hover {
-        color: var(--accent-red);
+    .footerinnhold{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
     }
 }
