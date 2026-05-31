@@ -206,10 +206,6 @@ nav li:hover {
     justify-content: center;
 }
 
-.hidden {
-    display: none;
-}
-
 .card {
     border-radius: 10px;
     display: grid;
@@ -228,6 +224,10 @@ nav li:hover {
 
 .card.selected {
     border: 2px solid var(--red2);
+}
+
+.hidden { 
+    display: none;
 }
 
 .aktivitet button {
@@ -384,9 +384,21 @@ footer {
     transition: 0.2s ease;
 }
 
+.ikoner {
+    display: flex;
+    gap: 15px;
+}
+
+.ikoner i {
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
 .footerlinker p:hover {
     color: var(--accent-red);
 }
+
 
 .ikoner {
     display: flex;
