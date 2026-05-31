@@ -50,7 +50,8 @@ p {
     line-height: 1.6;
 }
 
-.intro a {
+.intro a,
+footer a {
     text-decoration: none;
     color: white;
 }
@@ -374,32 +375,7 @@ footer {
 @media (width < 700px) {
 
     header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 60px;
-        padding: 20px;
-    }
-
-    .logo {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .logo i {
-        font-size: 25px;
-        color: var(--red2);
-    }
-
-    nav li {
-        list-style: none;
-        cursor: pointer;
-        transition: 0.2s ease;
-    }
-
-    nav li:hover {
-        color: var(--accent-red);
+        padding: 40px;
     }
 
     .menu-toggle {
