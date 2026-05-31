@@ -5,7 +5,6 @@
     --red2: #C1121F;
     --dark-blue: #1D3557;
     --light-bg: #F8F9FA;
-    --yellow: #F4A261;
     --text-dark: #222;
     --primary-yellow: #F4B400;
     --bakgrunn-light: #FAF7F2;
@@ -179,7 +178,7 @@ nav li:hover{
 
 .griddestinasjon button {
     width: 150px;
-    background: #F4B400;
+    background: var(--primary-yellow);
     border: none;
     padding: 8px 16px;
     border-radius: 8px;

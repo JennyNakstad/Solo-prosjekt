@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --primary-red: #e32938;
     --red2: #C1121F;
-    --dark-blue: #1D3557;
-    --light-bg: #F8F9FA;
-    --yellow: #F4A261;
     --text-dark: #222;
     --primary-yellow: #F4B400;
     --bakgrunn-light: #FAF7F2;
-    --primary-blue: #0B2A47;
     --marine-blue: #071B34;
     --accent-red: #E85D4A;
     --myk-green: #6BBF59;
@@ -103,10 +98,10 @@ nav li:hover {
     color: var(--accent-red);
 }
 
-.menu-toggle{
-    display:none;
-    font-size:28px;
-    cursor:pointer;
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
 }
 
 .knapp {
@@ -396,6 +391,7 @@ footer {
         font-size: 25px;
         color: var(--red2);
     }
+
     nav li {
         list-style: none;
         cursor: pointer;
@@ -406,47 +402,46 @@ footer {
         color: var(--accent-red);
     }
 
-    .menu-toggle{
-        display:block;
-        color:white;
+    .menu-toggle {
+        display: block;
+        color: white;
     }
 
-    nav{
-        display:none;
+    nav {
+        display: none;
     }
 
-    nav.active{
-        display:block;
+    nav.active {
+        display: block;
     }
 
-    nav ul{
-        position:absolute;
-        top:80px;
-        left:0;
-        width:100%;
-        background-color:var(--marine-blue);
-        display:flex;
-        flex-direction:column;
-        gap:20px;
-        padding:30px;
-    }
-
-    .knapp {
-        background-color: var(--red2);
-        padding: 10px;
-        border-radius: 5px;
-        transition: 0.3s ease;
-        cursor: pointer;
-    }
-
-    .knapp:hover {
-        transform: scale(1.05);
-        opacity: 0.9;
+    nav ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--marine-blue);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
     }
 
     .intro h1 {
         font-size: 80px;
         max-width: 500px;
+    }
+
+    .introinfo {
+        padding: 40px;
+    }
+
+    .om {
+        padding: 40px;
+    }
+
+    .severdigheter {
+        padding: 40px;
     }
 
     .grid {
@@ -467,8 +462,7 @@ footer {
 
     .reise {
         grid-template-columns: 1fr;
-        padding: 90px 80px;
-        gap: 40px;
+        padding: 40px;
     }
 
     .visitgrid {
@@ -480,22 +474,22 @@ footer {
     }
 
     .galleri {
-        padding: 90px 100px;
+        padding: 40px;
     }
 
     .gallericontainer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .footerlinker{
-        display:none;
+    .footerlinker {
+        display: none;
     }
 
     .footerikoner {
         display: none;
     }
 
-    .footerinnhold{
+    .footerinnhold {
         flex-direction: column;
         gap: 20px;
         text-align: center;
