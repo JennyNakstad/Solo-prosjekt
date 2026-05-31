@@ -103,6 +103,12 @@ nav li:hover {
     color: var(--accent-red);
 }
 
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
 .knapp {
     background-color: var(--red2);
     padding: 10px;
@@ -350,7 +356,6 @@ footer {
     color: var(--accent-red);
 }
 
-
 @media (width < 900px) {
 
     .om {
@@ -391,13 +396,6 @@ footer {
         font-size: 25px;
         color: var(--red2);
     }
-
-    nav ul {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-    }
-
     nav li {
         list-style: none;
         cursor: pointer;
@@ -406,6 +404,31 @@ footer {
 
     nav li:hover {
         color: var(--accent-red);
+    }
+
+    .menu-toggle{
+        display:block;
+        color:white;
+    }
+
+    nav{
+        display:none;
+    }
+
+    nav.active{
+        display:block;
+    }
+
+    nav ul{
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background-color:var(--marine-blue);
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        padding:30px;
     }
 
     .knapp {
@@ -436,6 +459,10 @@ footer {
 
     .card p {
         font-size: 13px;
+    }
+
+    .card img {
+        width: 40%;
     }
 
     .reise {
@@ -499,6 +526,4 @@ footer {
     .footerlinker p:hover {
         color: var(--accent-red);
     }
-
-
 }

@@ -22,7 +22,7 @@ function selectCard(card) {
     if (card.classList.contains("selected")) {
         let li = document.createElement("li")
         li.textContent = navn
-        li.id = navn 
+        li.id = navn
 
         aktivitetListe.appendChild(li)
 
@@ -37,38 +37,38 @@ function selectCard(card) {
 const opplevelserElm = document.getElementById("opplevelserid")
 const opplevelsergridElm = document.getElementById("opplevelsergrid")
 opplevelserElm.addEventListener("click", function () {
-                opplevelsergridElm.classList.remove("hidden")
-                naturgridElm.classList.add("hidden")
-                kulturgridElm.classList.add("hidden")
-            })
-           
+    opplevelsergridElm.classList.remove("hidden")
+    naturgridElm.classList.add("hidden")
+    kulturgridElm.classList.add("hidden")
+})
+
 const kulturElm = document.getElementById("kulturid")
 const kulturgridElm = document.getElementById("kulturgrid")
 kulturElm.addEventListener("click", function () {
-                kulturgridElm.classList.remove("hidden")
-                naturgridElm.classList.add("hidden")
-                opplevelsergridElm.classList.add("hidden")
-            })
+    kulturgridElm.classList.remove("hidden")
+    naturgridElm.classList.add("hidden")
+    opplevelsergridElm.classList.add("hidden")
+})
 
 const naturElm = document.getElementById("naturid")
 const naturgridElm = document.getElementById("naturgrid")
 naturElm.addEventListener("click", function () {
-                naturgridElm.classList.remove("hidden")
-                kulturgridElm.classList.add("hidden")
-                opplevelsergridElm.classList.add("hidden")
-            })
+    naturgridElm.classList.remove("hidden")
+    kulturgridElm.classList.add("hidden")
+    opplevelsergridElm.classList.add("hidden")
+})
 
 
 const gridmatElm = document.getElementById("gridmat")
 
-function scrollHoyre(){
+function scrollHoyre() {
     gridmatElm.scrollBy({
         left: 260,
         behavior: "smooth"
     })
 }
 
-function scrollVenstre(){
+function scrollVenstre() {
     gridmatElm.scrollBy({
         left: -260,
         behavior: "smooth"
@@ -95,3 +95,23 @@ function selectMatCard(matcard) {
         }
     }
 }
+
+
+const menuToggle = document.querySelector(".menu-toggle")
+const nav = document.querySelector("nav")
+const icon = document.querySelector(".menu-toggle i")
+
+menuToggle.addEventListener("click", function () {
+
+    nav.classList.toggle("active")
+
+    if(nav.classList.contains("active")){
+        icon.classList.remove("fa-bars")
+        icon.classList.add("fa-xmark")
+    }
+    else{
+        icon.classList.remove("fa-xmark")
+        icon.classList.add("fa-bars")
+    }
+
+})
