@@ -58,7 +58,7 @@ footer a {
 }
 
 .intro {
-    background-image: linear-gradient(to right, #5B1620, rgba(0, 0, 0, 0)), url(bilder/barcelona/barcelonahero.jpg);
+    background-image: linear-gradient(to right, #5B1620, rgba(0, 0, 0, 0)), url(bilder/madrid/madridbakgrunn3.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
