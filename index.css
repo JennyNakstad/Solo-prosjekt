@@ -296,7 +296,8 @@ nav a:hover {
 
 .matcard {
     border-radius: 10px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     min-width: 240px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
