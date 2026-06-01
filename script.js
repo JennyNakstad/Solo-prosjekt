@@ -29,22 +29,6 @@ function klikkDestinasjon(element, by) {
     })
 
     element.classList.add("selected")
-
-    document.getElementById("selectbarcelona").classList.add("hidden")
-    document.getElementById("selectmadrid").classList.add("hidden")
-    document.getElementById("selectsevilla").classList.add("hidden")
-
-    if (by === "Barcelona") {
-        document.getElementById("selectbarcelona").classList.remove("hidden")
-    }
-
-    if (by === "Madrid") {
-        document.getElementById("selectmadrid").classList.remove("hidden")
-    }
-
-    if (by === "Sevilla") {
-        document.getElementById("selectsevilla").classList.remove("hidden")
-    }
 }
 
 
