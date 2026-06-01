@@ -3,6 +3,7 @@
 :root {
     --primary-red: #e32938;
     --red2: #C1121F;
+    --hover-red: #E85D4A;
     --dark-blue: #1D3557;
     --primary-blue: #0B2A47;
     --light-bg: #F8F9FA;
@@ -54,9 +55,10 @@ p {
     width: 100%;
 }
 
-.intro a {
+.intro a,
+footer a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: white;
 }
 
 header {
@@ -90,8 +92,8 @@ nav li {
     transition: 0.2s ease;
 }
 
-nav li:hover {
-    color: var(--accent-red);
+nav a:hover {
+    color: var(--hover-red);
 }
 
 .menu-toggle {
@@ -396,7 +398,7 @@ footer {
 }
 
 .footerlinker p:hover {
-    color: var(--accent-red);
+    color: var(--hover-red);
 }
 
 

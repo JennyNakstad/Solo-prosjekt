@@ -6,7 +6,7 @@
     --primary-yellow: #F4B400;
     --bakgrunn-light: #FAF7F2;
     --marine-blue: #071B34;
-    --accent-red: #E85D4A;
+    --hover-red: #E85D4A;
     --myk-green: #6BBF59;
     --varm-gul: #F4B400;
     --dyp-oransje: #D97706;
@@ -96,8 +96,8 @@ nav li {
     transition: 0.2s ease;
 }
 
-nav li:hover {
-    color: var(--accent-red);
+nav a:hover {
+    color: var(--hover-red);
 }
 
 .menu-toggle {
@@ -350,7 +350,7 @@ footer {
 }
 
 .footerlinker p:hover {
-    color: var(--accent-red);
+    color: var(--hover-red);
 }
 
 @media (width < 900px) {
