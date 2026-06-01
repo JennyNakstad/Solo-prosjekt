@@ -1,14 +1,14 @@
 console.log("hei")
 
 const menuToggle = document.querySelector(".menu-toggle")
-const nav = document.querySelector("nav")
+const navElm = document.querySelector("nav")
 const icon = document.querySelector(".menu-toggle i")
 
 menuToggle.addEventListener("click", function () {
 
-    nav.classList.toggle("active")
+    navElm.classList.toggle("active")
 
-    if (nav.classList.contains("active")) {
+    if (navElm.classList.contains("active")) {
         icon.classList.remove("fa-bars")
         icon.classList.add("fa-xmark")
     }
