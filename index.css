@@ -275,6 +275,11 @@ nav a:hover {
     text-align: center;
 }
 
+.mat .fa-circle-chevron-left, 
+.mat .fa-circle-chevron-right {
+    font-size: 30px;
+}
+
 .matcontainer {
     margin: 30px;
     display: flex;
