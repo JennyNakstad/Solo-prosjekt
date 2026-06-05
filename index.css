@@ -473,6 +473,10 @@ footer {
         color: var(--text-dark);
     }
 
+    nav .knapp a {
+        color: white;
+    }
+
     .intro h1 {
         font-size: 80px;
         margin-top: 200px;
