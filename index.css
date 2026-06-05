@@ -469,6 +469,10 @@ footer {
         padding: 40px;
     }
 
+    .intro nav a {
+        color: var(--text-dark);
+    }
+
     .intro h1 {
         font-size: 80px;
         margin-top: 200px;
